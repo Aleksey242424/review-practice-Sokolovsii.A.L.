@@ -33,3 +33,8 @@ def calculate_positive_average(numbers:arr[int])->int:
     else:
         average = 0
     return average
+
+test1 = calculate_positive_average([1,2,3,4])
+test2 = calculate_positive_average([-1,-2,-3,-4])
+test3 = calculate_positive_average(['a',3,true,None,'ds'])
+
