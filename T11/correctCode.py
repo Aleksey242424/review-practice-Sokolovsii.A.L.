@@ -12,6 +12,9 @@ print(factorial(5))  # Ожидается 120, выводит 24
 
 def check_password(password):
   if password == "qwerty":
+      """
+      код выполняет это условие потому что мы переда    м в функцию qwerty
+      """
     return "Your password qwerty"
   if len(password) < 8:                  
     return "Слишком короткий!"          # Step Over
